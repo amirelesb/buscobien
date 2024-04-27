@@ -3,11 +3,13 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "bc122670bbd525218740992e9d1d7e56",
-"assets/AssetManifest.json": "54d874e5aa2fc346002afa992b4b49e7",
+const RESOURCES = {"assets/AssetManifest.bin": "3a11bd38275327ea255dfd800eb7f68b",
+"assets/AssetManifest.json": "1bfbe0e7c5f6f1fd5dae3a0b0dddd4a1",
+"assets/assets/images/buscobienimagen.jpg": "8c33ef0e78a5b05bca9db426990c5373",
+"assets/assets/images/buscobienlogo.jpg": "f39dc8f9f9f35b225b8162ba3eb25715",
+"assets/assets/images/buscobiennombre.jpg": "c44d1c30d9cab44063c63a62c043f4c3",
 "assets/assets/images/imagenbuscobien.jpg": "4b3b080c8c88de4ee1719b368ac0f7a0",
 "assets/assets/images/logobuscobien.jpg": "af6553d24e2689fb7630c2636d3579b4",
-"assets/assets/images/nombrebuscobien.jpg": "f4888ee0220e30d61d81337281ee6d56",
 "assets/FontManifest.json": "d6ad592621d7515482ae7494be81f091",
 "assets/fonts/Comfortaa-Bold.ttf": "281df342e6f73c20ebc6526f130e00b3",
 "assets/fonts/Comfortaa-Light.ttf": "d30cea8a3c38eee6a405049e1d8c7c2f",
@@ -39,9 +41,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "bc122670bbd525218740992e9d1d7e56
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "84c1da04cf9aa35491398c82251c650a",
-"/": "84c1da04cf9aa35491398c82251c650a",
-"main.dart.js": "bd96b04dd9cccdaa66c92c4034f7b252",
+"index.html": "d8541c26df678c52e9caf361c18a66ca",
+"/": "d8541c26df678c52e9caf361c18a66ca",
+"main.dart.js": "5798f66970b66c611b6cee41e0b21bd9",
 "manifest.json": "097f5c53b83428bd7039b89d1d189521",
 "version.json": "e93b1c4510d759b5235de698657aaf9d"};
 // The application shell files that are downloaded before a service worker can
