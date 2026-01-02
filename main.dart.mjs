@@ -578,6 +578,7 @@ class CompiledApp {
       _1518: (o, start, length) => new Float64Array(o.buffer, o.byteOffset + start, length),
       _1519: (t, s) => t.set(s),
       _1521: (o) => new DataView(o.buffer, o.byteOffset, o.byteLength),
+      _1522: o => o.byteLength,
       _1523: o => o.buffer,
       _1524: o => o.byteOffset,
       _1525: Function.prototype.call.bind(Object.getOwnPropertyDescriptor(DataView.prototype, 'byteLength').get),
@@ -690,6 +691,18 @@ class CompiledApp {
       },
       _1606: (jsArray, jsArrayOffset, wasmArray, wasmArrayOffset, length) => {
         const setValue = dartInstance.exports.$wasmI8ArraySet;
+        for (let i = 0; i < length; i++) {
+          setValue(wasmArray, wasmArrayOffset + i, jsArray[jsArrayOffset + i]);
+        }
+      },
+      _1607: (jsArray, jsArrayOffset, wasmArray, wasmArrayOffset, length) => {
+        const getValue = dartInstance.exports.$wasmI16ArrayGet;
+        for (let i = 0; i < length; i++) {
+          jsArray[jsArrayOffset + i] = getValue(wasmArray, wasmArrayOffset + i);
+        }
+      },
+      _1608: (jsArray, jsArrayOffset, wasmArray, wasmArrayOffset, length) => {
+        const setValue = dartInstance.exports.$wasmI16ArraySet;
         for (let i = 0; i < length; i++) {
           setValue(wasmArray, wasmArrayOffset + i, jsArray[jsArrayOffset + i]);
         }
@@ -822,8 +835,8 @@ class CompiledApp {
       _4276: f => finalizeWrapper(f, function(x0,x1,x2) { return dartInstance.exports._4276(f,arguments.length,x0,x1,x2) }),
       _4277: (x0,x1) => x0.forEach(x1),
       _4278: x0 => x0.getReader(),
-      _4279: x0 => x0.read(),
-      _4280: x0 => x0.cancel(),
+      _4279: x0 => x0.cancel(),
+      _4280: x0 => x0.read(),
       _4281: (x0,x1) => x0.createImageBitmap(x1),
       _4283: x0 => x0.trustedTypes,
       _4284: (x0,x1) => { x0.innerHTML = x1 },
