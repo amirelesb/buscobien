@@ -3,8 +3,15 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "e2e17cca248dc3fbb82ac6116af32882",
-"assets/AssetManifest.bin.json": "4ea301bc26f2c1b05052a9febf1a9d75",
+const RESOURCES = {"assets/AssetManifest.bin": "8ce03af87fe4f2b6249bbbc83464c0f7",
+"assets/AssetManifest.bin.json": "46eec5f0184841d4b94bdbf97e379667",
+"assets/assets/images/casa_comedor.jpeg": "1a796439f1487ef2a5684c59ec1015a3",
+"assets/assets/images/casa_cuerna.jpeg": "267e29177c5e7263bd86d8678a542d36",
+"assets/assets/images/casa_estudio.jpeg": "4015bc98f421da1f605219dbd6e2bb2e",
+"assets/assets/images/casa_estudio2.jpg": "625908159732d89f31b621acf4a95f51",
+"assets/assets/images/casa_jardin.jpeg": "fd231ef407d3ebab7e6937f0f9ac12de",
+"assets/assets/images/casa_panoramica.jpg": "fc982540d9e1a69f7b6bde8fcaff45f8",
+"assets/assets/images/casa_pasillo.jpeg": "e5d6c4a62e5a1973cb1a376e4fb2be15",
 "assets/assets/images/logobuscobientazul.png": "495fa4b5c69945cbead0049ea004a1b2",
 "assets/assets/images/logobuscobientblanco.png": "69acc0be75ef3bda5398e5378745de6f",
 "assets/assets/images/nombrebuscobientazul.png": "2b35fc5f30753862457ef98e9c5bdcb6",
@@ -39,16 +46,16 @@ const RESOURCES = {"assets/AssetManifest.bin": "e2e17cca248dc3fbb82ac6116af32882
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "a2ec926b46113391b2d12a20c7480e1b",
+"flutter_bootstrap.js": "9de576dbe394d7f43c3608de305589ff",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "e359607ef31f85cb1e7cbadf39d3bddb",
 "/": "e359607ef31f85cb1e7cbadf39d3bddb",
-"main.dart.js": "22ffc8c703d10b80e024bb158c6da637",
-"main.dart.mjs": "2881ae9d386c36c5c0143543ed7434cf",
-"main.dart.wasm": "8c3e296f759e0f4add90cc878d4f2e82",
+"main.dart.js": "babb3f4a57d3d09e1677b71e4d41e4a6",
+"main.dart.mjs": "2c57df33366fb003127a1d64ccfc9c16",
+"main.dart.wasm": "96e8406b15995985a7b292772002ae0a",
 "manifest.json": "097f5c53b83428bd7039b89d1d189521",
 "version.json": "e199479ec81917783dfd705a11730804"};
 // The application shell files that are downloaded before a service worker can
