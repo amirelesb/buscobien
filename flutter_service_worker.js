@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "e9ef753611363a1fe39455f5e32386ca",
-"assets/AssetManifest.bin.json": "455961acc470ab7ee16342956a3e5acf",
+const RESOURCES = {"assets/AssetManifest.bin": "3b7ffe4bcad3a228714fe5b917d821ac",
+"assets/AssetManifest.bin.json": "e58b0b1283c4bfbafba22b18154fce2f",
 "assets/assets/aviso_privacidad.pdf": "e94ea488bca56fc1e21eccb4673370fe",
 "assets/assets/icon/app_icon.ico": "57bc99d60fa76fef2714cf3156b5c752",
 "assets/assets/images/casa_comedor.jpeg": "1a796439f1487ef2a5684c59ec1015a3",
@@ -22,6 +22,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "e9ef753611363a1fe39455f5e32386ca
 "assets/assets/images/fondo_opcion_6.jpg": "957593324010fc8e5d8681fa4376cfb7",
 "assets/assets/images/fondo_opcion_7.jpg": "159f500c29816537ae854a99b85be97c",
 "assets/assets/images/fondo_opcion_8.jpg": "f3d8afc075a1556915119c79533d8bbf",
+"assets/assets/images/fondo_opcion_9.jpg": "457b1e17bba4ff2ccc7e8d75cbf64092",
 "assets/assets/images/logobuscobientazul.png": "495fa4b5c69945cbead0049ea004a1b2",
 "assets/assets/images/logobuscobientblanco.png": "69acc0be75ef3bda5398e5378745de6f",
 "assets/assets/images/nombrebuscobientazul.png": "2b35fc5f30753862457ef98e9c5bdcb6",
@@ -33,7 +34,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "e9ef753611363a1fe39455f5e32386ca
 "assets/fonts/Comfortaa-Medium.ttf": "1a7bfac2b8d70a2726a281786c3894cd",
 "assets/fonts/Comfortaa-Regular.ttf": "53f695dbfc6f703f86ed88bddde527b6",
 "assets/fonts/Comfortaa-SemiBold.ttf": "50c5468a51006a4b81d223cc28aa1790",
-"assets/fonts/MaterialIcons-Regular.otf": "6e1a4dc2ade4c94d7ca541303ae71189",
+"assets/fonts/MaterialIcons-Regular.otf": "19121faea9fd40b750ac7f2ea99a68a0",
 "assets/fonts/Urbanist-Bold.ttf": "1ffe51e22e7841c65481a727515e2198",
 "assets/fonts/Urbanist-Light.ttf": "46ffc15bcd0fb7da54fc241cb43ece28",
 "assets/fonts/Urbanist-Medium.ttf": "9ffbd4b23b829ddd499aaf5eb925a86c",
@@ -58,7 +59,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "e9ef753611363a1fe39455f5e32386ca
 "favicon.ico": "57bc99d60fa76fef2714cf3156b5c752",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "ca2224f916efbcaac5b359a99cb0af22",
+"flutter_bootstrap.js": "10973e80c2bbca697d5292bb72e103be",
 "icons/android-chrome-192x192.png": "8337ff912f3e3f8087a478c5cf1f9a3c",
 "icons/android-chrome-512x512.png": "bf79eaa3800fca4240f07a205db88e03",
 "icons/apple-touch-icon.png": "43c1aa91bc6e82770ff4f599f2b08ac8",
@@ -69,9 +70,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "e9ef753611363a1fe39455f5e32386ca
 "index.html": "b09fccea87c1a0cb49635ca14ea36082",
 "/": "b09fccea87c1a0cb49635ca14ea36082",
 "logo.png": "8337ff912f3e3f8087a478c5cf1f9a3c",
-"main.dart.js": "9356b5776cf9c70af6643c1d779ffed1",
+"main.dart.js": "678db9ddfa374fcecf8a703c8e778b5d",
 "main.dart.mjs": "18af1a4bc1131fce19821484749f088b",
-"main.dart.wasm": "254106f207cd8119ffb49117eeb300fb",
+"main.dart.wasm": "38167a0f5700ce5469f3306fcf458fe1",
 "manifest.json": "cb628d9b92912ed4b52c9dab404338ad",
 "version.json": "e199479ec81917783dfd705a11730804"};
 // The application shell files that are downloaded before a service worker can
