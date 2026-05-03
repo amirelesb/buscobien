@@ -501,6 +501,13 @@ class CompiledApp {
       _1417: (module,f) => finalizeWrapper(f, function(x0) { return module.exports._1417(f,arguments.length,x0) }),
       _1418: (x0,x1) => x0.removeChild(x1),
       _1420: (x0,x1) => x0.key(x1),
+      _1421: (x0,x1,x2,x3,x4,x5,x6,x7) => x0.unwrapKey(x1,x2,x3,x4,x5,x6,x7),
+      _1422: (x0,x1,x2,x3,x4,x5) => x0.importKey(x1,x2,x3,x4,x5),
+      _1423: (x0,x1,x2,x3) => x0.generateKey(x1,x2,x3),
+      _1424: (x0,x1,x2,x3,x4) => x0.wrapKey(x1,x2,x3,x4),
+      _1425: (x0,x1,x2) => x0.exportKey(x1,x2),
+      _1426: (x0,x1) => x0.getRandomValues(x1),
+      _1427: (x0,x1,x2,x3) => x0.encrypt(x1,x2,x3),
       _1432: Date.now,
       _1434: s => new Date(s * 1000).getTimezoneOffset() * 60,
       _1435: s => {
@@ -979,7 +986,10 @@ class CompiledApp {
       _6378: () => globalThis.window,
       _6418: x0 => x0.document,
       _6440: x0 => x0.navigator,
+      _6695: x0 => x0.isSecureContext,
+      _6698: x0 => x0.crypto,
       _6702: x0 => x0.trustedTypes,
+      _6703: x0 => x0.sessionStorage,
       _6704: x0 => x0.localStorage,
       _6810: x0 => x0.geolocation,
       _6815: x0 => x0.permissions,
@@ -1024,6 +1034,7 @@ class CompiledApp {
       _14081: (x0,x1) => { x0.height = x1 },
       _14771: (x0,x1) => { x0.width = x1 },
       _15139: x0 => x0.name,
+      _15143: x0 => x0.subtle,
       _15873: (x0,x1,x2,x3,x4,x5,x6,x7) => ({hue: x0,lightness: x1,saturation: x2,gamma: x3,invert_lightness: x4,visibility: x5,color: x6,weight: x7}),
 
     };
